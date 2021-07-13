@@ -20,3 +20,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Seja Bem-Vindo!',TIMESTAMP WITH TIME ZONE '2020-11-20T10:00:00Z', 0,'Teste de Route', 1);
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Ótima notícia!',TIMESTAMP WITH TIME ZONE '2020-11-20T10:00:00Z', 0,'Teste de Rotas', 2);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, external_Link, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://www.maxpixel.net/static/photo/1x/Icon-Html5-Logo-Html-2582748.png', 1, 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Switch-course-book-grey.svg', 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, external_Link, offer_id) VALUES ('Fórum', 'Tire suas dúvidas', 2, 'https://www.maxpixel.net/static/photo/1x/Icon-Html5-Logo-Html-2582748.png', 2, 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Switch-course-book-grey.svg', 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, external_Link, offer_id) VALUES ('Lives', 'Lives exclusivas da Turma', 3, 'https://www.maxpixel.net/static/photo/1x/Icon-Html5-Logo-Html-2582748.png', 0, 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Switch-course-book-grey.svg', 1);
