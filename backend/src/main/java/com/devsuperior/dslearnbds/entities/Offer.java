@@ -51,8 +51,6 @@ public class Offer implements Serializable {
 		this.course = course;
 	}
 
-	
-
 	public Long getId() {
 		return id;
 	}
